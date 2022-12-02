@@ -1,0 +1,111 @@
+
+#landingMain{
+    height: 100vh;
+    background-image: url('../Assets/Background_.png'),linear-gradient(180deg, #FDAEFF 0%, #9BB0FF 68.65%);
+    background-size: 100%;
+    overflow-x: clip;
+}
+#link{
+    color:white;
+    text-decoration: underline;
+}
+#link:hover{
+    color: #FDAEFF;
+}
+.innerContainer{
+        
+        position: absolute;
+        height: 55vh;
+
+        padding: 20px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        
+
+        background: rgba(155, 128, 255, 0.72);
+        border-radius: 57px;
+}
+
+.landingDescription{
+    padding: 20px;
+    height: 90%;
+    color: white;
+    margin-top: 4vh;
+
+ 
+}
+
+.exploreMore{
+    float: right;
+    margin-top: 50px;
+}
+
+.contactMe{
+    float: left;
+    margin-top: 50px;
+}
+
+.floatingGirl{
+    transition: 1s ease;
+    animation: floating 3s ease-in-out infinite;
+}
+
+@media only screen and (max-width: 1024px){
+    .exploreMore{
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+
+    .landingDescription{
+        padding: 10vw;
+        position: relative;
+        text-align: center;
+        margin-top: 0vh;
+    }
+    #link{
+        text-decoration: none;
+    }
+    #link:hover{
+        color: white;
+    }
+    
+    .contactMe{
+        margin-top: 0px;
+     
+        position: absolute;
+        margin-left: -11vw;
+     
+   
+    }
+    #landingMain{
+        overflow: hidden;
+    }
+    .floatingGirl{
+        margin-top: 10vh;
+    }
+ 
+    
+    
+}
+
+@keyframes floating{
+    0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}  
+}

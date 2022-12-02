@@ -1,0 +1,60 @@
+.NavigationMain{
+    box-sizing: border-box;
+   
+    background-color: rgba(255, 255, 255, 0.75);
+
+  
+    height: 80px;
+    width: 95%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+   
+    margin-top: 30px;
+  
+
+    border-radius: 18px;
+    z-index: 1;
+}
+#icon{
+    margin-right: 10px;
+    
+}
+#icon > img{
+    transition: all .2s ease-in-out;
+}
+#icon > img:hover{
+    transform: scale(1.2);
+}
+
+
+.leftNavButtons{
+    display: flex;
+    float: left;
+    clear: right;
+    margin-left: 45px;
+}
+.rightNavButtons{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+
+
+#navbutton{
+    color: #9B80FF;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+#navbutton:hover{
+    color: #FDAEFF;
+}
