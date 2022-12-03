@@ -3,6 +3,10 @@ import '../Styles/LandingPage.css';
 import '../Styles/mediaDevices.css';
 import floating from '../Assets/Girl/Floating.png';
 
+
+import {Route, Link, BrowserRouter} from 'react-router-dom';
+import { NavLink } from "react-router-dom";
+
 import Fade from 'react-reveal/Fade';
 class LandingPage extends Component {
     state = {  }
@@ -20,8 +24,7 @@ class LandingPage extends Component {
                     </p>
                     
                     <div className = "links">
-                        <a id = "link" className="contactMe" href = "#contactForm">Contact Me</a>
-                        <a id = "link" className="exploreMore" href = "#myWorkCards">Explore More</a>
+                    <Link id = "link" to = "/ContactMe">Contact Me</Link>
                     </div>
                 </div>
             <Fade duration = {1700}>
