@@ -1,0 +1,76 @@
+#myWorkCards{
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    text-align: center;
+    color: white;
+    background: linear-gradient(180deg, #9BB0FF 0%, #9B80FF 100%);
+}
+#cardTitle{
+    color: white;
+    background-color: #FDAEFF;
+    font-size: 20px;
+    text-decoration: underline;
+    border-radius: 18px;
+}
+#cardSubtitle{
+    color: #4A5367;
+    font-size: 18px;
+    margin-top: -10px;
+}
+#cardGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    color: #4A5367;
+    border: solid white;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 18px;
+    margin-left: 3vh;
+    padding: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+#cardDesc{
+    color: #4A5367;
+}
+
+#caseButton{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 10px;
+    color: #9B80FF;
+    display: block;
+}
+#caseButton:hover{
+  background-color: #B29DFF;
+  color: white;
+}
+
+@media only screen and (max-width: 767px){
+    #cardGroup{
+        display:contents;
+        
+    }
+    #card{
+        margin-left: 0vh;
+        margin-left: 25%;
+        margin-top: 20px;
+        margin-bottom: 10vh;
+        width: 50%;
+       
+    }
+
+   
+}
+
+#wholeMyWork{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 300px;
+}

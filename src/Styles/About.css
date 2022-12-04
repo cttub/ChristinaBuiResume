@@ -1,0 +1,58 @@
+#aboutMain{
+    background: linear-gradient(180deg, #FDAEFF 0%, #9B80FF 68.65%);
+    height: 90vh;
+    width: 100%;
+    overflow: clip;
+}
+.aboutElements{
+    
+    color: white;
+    position: absolute;
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 70vh;
+}
+
+.idle{
+    float: left;
+   
+}
+.aboutMeDesc{
+    float: right;
+    margin-top: 10vh;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .idle{
+        position: absolute;
+        opacity: 70%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .aboutMeDesc{
+        position: absolute;
+        text-align: center;
+        border-radius: 15px;
+        border: solid white;
+        
+        background: rgba(155, 128, 255, 0.72);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .idle{
+        opacity: 50%;
+        margin-left: 15vw;
+        
+    }
+}

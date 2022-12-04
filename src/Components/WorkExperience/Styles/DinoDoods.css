@@ -1,0 +1,232 @@
+.dinodoods{
+    display: flex;
+    background: 
+    linear-gradient(180deg, #BCD1FF 0%,
+    #9B80FF 27.08%, #8BAFFF 50%,
+     #9B80FF 66.81%, rgba(253, 174, 255, 0) 50%, 
+     #FDAEFF 100%);
+}
+
+#title{
+    margin: auto;
+    color: white;
+    margin-bottom: 15px;
+}
+#paragraph{
+    color:white;
+}
+.overviewPara{
+    color: #4A5367;
+    background-color: rgba(255, 255, 255,0.75);
+    padding: 40px;
+    border-radius: 20px;
+}
+.whole{
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.contactForm{
+    text-align: left;
+}
+button{
+    margin: auto;
+    margin-top: 150px;
+}
+.HomePageDinoDoods{
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.bigDesktop{
+    margin: auto;
+}
+.ButtonBun{
+    z-index: 0.1;
+    margin-top: -100px;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    display: flex;
+}
+.bunnies{
+    width: 20vw;
+}
+.bunny2{
+    transform: scaleX(-1);
+}
+
+#twins{
+    transition: 1s ease;
+    animation: floating 3s ease-in-out infinite;
+}
+@keyframes floating{
+    0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}  
+}
+
+#problem{
+    text-align: left;
+    margin-top: 400px;
+}
+#solution{
+    margin-top: 400px;
+}
+#solution > #smallSubtitle{
+    color:#4A5367;
+    background-color:rgba(255, 255, 255,0.75);
+    border-radius: 10px;
+
+}
+
+.stepsTowards{
+    margin-top: 500px;
+}
+.stepsTowards > #title{
+    text-decoration: underline;
+}
+#circles{
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+#circle{
+    display: block;
+    color: white;
+    width: 30%;
+    
+    margin: auto;
+
+    font-weight: 400;
+    font-size: 3vh;
+
+    background: #FDAEFF;
+    border-radius: 50px;
+    padding: 40px;
+
+    transition: all .2s ease-in-out;
+}
+
+
+#feedback{
+    text-align: left;
+}
+
+.feedBackImages{
+    display: flex;
+    width: 100%;
+}
+#videosFeedback{
+    margin: auto;
+}
+.figma{
+    border-radius: 100px;
+    margin: auto;
+    float:left;
+}
+.block{
+    display: flex;
+}
+
+.planning{
+   overflow-y: hidden;
+   width: 100%;
+   height: auto;
+   margin-top: 500px;
+}
+
+.text{
+    margin-top: 160px;
+}
+
+.Develop{
+    background-color: #9B80FF;
+    border: solid #9B80FF 10px;
+    border-radius: 100px;
+    margin-top: 500px;
+    width: 100%;
+    display: flex;
+}
+.textDevelop{
+    margin: auto;
+    float: left;
+}
+.mobileVideo{
+    margin: auto;
+    float: right;
+}
+
+.conPara{
+    text-align: left;
+    margin-top: 400px;
+    margin-bottom: 300px;
+}
+#twins{
+    float: right;
+}
+
+.implementApp{
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+    .feedBackImages > .smallDesktop{
+        display: none;
+    }
+    .mobileVideo{
+        margin-bottom: 40%;
+    }
+    .bunnies{
+        display: none;
+    }
+    #circles{
+        display: block;
+    }
+    #circle{
+       padding: 0;
+       margin: 0;
+       margin-bottom: 20px;
+       width: 100%;
+       font-size: 5vh;
+    }
+    .Develop{
+        background-color: none;
+        border: none;
+        display: block;
+    }
+    .mobileVideo{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1194px) {
+    .whole{
+    
+       padding-left: 2%;
+       padding-right: 2%;
+    }
+    .figmaBlock{
+        display: none;
+    }
+    .text{
+        margin-top: 0px;
+    }
+}
