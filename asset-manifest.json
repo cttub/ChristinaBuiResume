@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7247aa7a.css",
-    "main.js": "/static/js/main.a987d3b8.js",
+    "main.css": "/static/css/main.72561124.css",
+    "main.js": "/static/js/main.c3c65852.js",
     "static/js/787.4a053a9e.chunk.js": "/static/js/787.4a053a9e.chunk.js",
     "static/media/GentlemenDesktop.mp4": "/static/media/GentlemenDesktop.97dcffc2e631bbcc9c81.mp4",
     "static/media/PreviousDinoDoods.mp4": "/static/media/PreviousDinoDoods.3f9980dbbecc4da934bb.mp4",
@@ -50,12 +50,12 @@
     "static/media/check.svg": "/static/media/check.7f76f2fc4b7f4cca43f19b2eccb44eec.svg",
     "static/media/menu.svg": "/static/media/menu.cf006acb96e2e68004e4e26e2f8f270f.svg",
     "index.html": "/index.html",
-    "main.7247aa7a.css.map": "/static/css/main.7247aa7a.css.map",
-    "main.a987d3b8.js.map": "/static/js/main.a987d3b8.js.map",
+    "main.72561124.css.map": "/static/css/main.72561124.css.map",
+    "main.c3c65852.js.map": "/static/js/main.c3c65852.js.map",
     "787.4a053a9e.chunk.js.map": "/static/js/787.4a053a9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7247aa7a.css",
-    "static/js/main.a987d3b8.js"
+    "static/css/main.72561124.css",
+    "static/js/main.c3c65852.js"
   ]
 }
